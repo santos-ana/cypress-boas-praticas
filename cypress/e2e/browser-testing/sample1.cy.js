@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe('Browser testing bad practice - anchor href', () => {
   beforeEach(() => {
     cy.visit('https://notes-serverless-app.com')
